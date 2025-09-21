@@ -1,6 +1,24 @@
-# CPD Project 2
+# Chat Application - CPD Project 2
 
-CPD Project 2 of group T09G16.
+This project is part of the **Parallel and Distributed Computing** course, **second semester of the third year**. The main objective is to develop a secure and distributed chat application with advanced features such as authentication, room management, and integration with Language Learning Models (LLMs).
+
+## Key Features
+
+1. **Authentication**:
+   - Users can log in with existing credentials or register a new account.
+   - Reconnection is supported using authentication tokens.
+
+2. **Chat Rooms**:
+   - Users can join or leave chat rooms.
+   - Rooms are dynamically created when a user joins a non-existent room.
+   - Messages in a room are broadcasted to all participants.
+
+3. **LLM Integration**:
+   - Users can interact with Language Learning Models (LLMs) in dedicated rooms.
+   - LLM responses are broadcasted to the room participants.
+
+4. **Secure Communication**:
+   - Communication between the client and server is secured using SSL/TLS.
 
 ## Chat Application – Setup & Execution Guide
 
